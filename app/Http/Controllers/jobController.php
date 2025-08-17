@@ -13,3 +13,4 @@ class jobController extends Controller
         return view('job/index',['jobs'=>$jobs]);
     }
 }
+echo'';
