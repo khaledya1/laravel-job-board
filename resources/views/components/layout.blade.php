@@ -43,6 +43,8 @@
                             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
                             <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
                             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
+                            <x-nav-link href="/blog" :active="request()->is('blog')">Blog</x-nav-link>
+                            <x-nav-link href="/comment" :active="request()->is('comment')">comments</x-nav-link>
                         </div>
                     </div>
                 </div>
@@ -67,6 +69,7 @@
             <a href="/" class="block rounded-md px-3 py-2 text-base font-medium {{ request()->is('/') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Home</a>
             <a href="/about" class="block rounded-md px-3 py-2 text-base font-medium {{ request()->is('about') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">About</a>
             <a href="/contact" class="block rounded-md px-3 py-2 text-base font-medium {{ request()->is('contact') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Contact</a>
+            <a href="/blog" class="block rounded-md px-3 py-2 text-base font-medium {{ request()->is('blog') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }}">Posts</a>
         </div>
     </nav>
     @if (isset($title))
