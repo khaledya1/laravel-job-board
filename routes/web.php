@@ -16,4 +16,4 @@ Route::get('/contact',ContactController::class);
 route::resource('blog',PostController::class);
 route::resource('comment',CommentController::class);
 route::resource('tag',TagController::class);
-//khaled
+//khaled yasser
