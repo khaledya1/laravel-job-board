@@ -44,7 +44,6 @@
                             <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
                             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                             <x-nav-link href="/blog" :active="request()->is('blog')">Blog</x-nav-link>
-                            <x-nav-link href="/comment" :active="request()->is('comment')">comments</x-nav-link>
                         </div>
                     </div>
                 </div>
